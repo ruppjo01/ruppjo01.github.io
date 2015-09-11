@@ -1,2 +1,2 @@
 # ruppjo01.github.io
-Luther College Repo
+CS 130 Repo
