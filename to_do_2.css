@@ -1,1 +1,20 @@
+section.high {
+    background-color: red;
+    color: white;
+    }
+  
+section.medium {
+    background-color: orange;
+    color: brown;
+    }
 
+section.low {
+    background-color: #666666;
+    color: black;
+    }
+
+section.done {
+    background-color: black;
+    color: cyan;
+    text-decoration: line-through;
+    }
