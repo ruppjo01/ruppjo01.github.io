@@ -17,3 +17,7 @@ h1 {
 body {
      background-color: #d0e4fe;
    }
+ul { 
+   display:table; 
+   margin:0 auto;
+   }
