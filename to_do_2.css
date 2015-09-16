@@ -16,5 +16,8 @@ section.low {
 section.done {
     background-color: black;
     color: cyan;
-    ul text-decoration: line-through;
+    text-decoration: line-through;
     }
+
+h1.done { 
+    text-decoration: none;
