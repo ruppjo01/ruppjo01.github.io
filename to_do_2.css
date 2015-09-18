@@ -24,4 +24,9 @@ body {
     background-color: #d0e4fe;
 }
 
+section { 
+        height: 200px;
+        width: 300px;
+}
+
 
