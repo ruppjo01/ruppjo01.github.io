@@ -16,8 +16,10 @@
 .done {
     background-color: black;
     color: cyan;
-    text-decoration: line-through;
     }
+.done li { 
+      text-decoration: line-through;
+}
 body {
     background-color: #d0e4fe;
 }
