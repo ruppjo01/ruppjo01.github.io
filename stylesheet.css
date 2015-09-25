@@ -2,7 +2,7 @@ header {
   text-align: center;
   color:blue;
   font-size:30pt;
-  top:40px;
+  margin-top:40px;
 }
 h1 {
   color: blue;
@@ -25,6 +25,10 @@ body {
   text-align: center;
   font-size: 15pt;
   height:30px;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  
   
   
 }
