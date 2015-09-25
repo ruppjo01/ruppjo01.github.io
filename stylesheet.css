@@ -2,7 +2,7 @@ header {
   text-align: center;
   color:blue;
   font-size:30pt;
-  padding-top:50px;
+  padding-top:55px;
 }
 h1 {
   color: blue;
@@ -16,7 +16,6 @@ body {
  list-style: none;
  width: 85%;
  margin: 0;
- padding: 6px 20px;
  background-color: blue;
  color: white;
  text-align: center;
