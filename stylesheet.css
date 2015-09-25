@@ -19,6 +19,12 @@ body {
   color: white;
   background-color: blue;
 }
+
+.nav ul {
+  margin-top:6px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .nav {
   position: fixed;
   background-color: blue;
@@ -26,9 +32,5 @@ body {
   font-size: 15pt;
   height: 30px;
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  
-  
   
 }
