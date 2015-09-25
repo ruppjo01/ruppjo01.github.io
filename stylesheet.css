@@ -13,11 +13,14 @@ body {
 .nav li {
   display: inline;
   color: blue;
-  background-color: white;
+  background-color: #1F13CA;
 }
-
+.nav a {
+  text-decoration: none
+  color:white;
+}
 .nav {
-  background-color: white;
+  background-color: #1F13CA;
   text-align: center;
   
   
