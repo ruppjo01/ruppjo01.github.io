@@ -20,6 +20,7 @@ body {
   background-color: blue;
 }
 .nav {
+  position: fixed;
   background-color: blue;
   text-align: center;
   font-size: 15pt;
