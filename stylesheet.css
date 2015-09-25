@@ -52,3 +52,8 @@ section.right {
 footer {
   clear: both;
 }
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
