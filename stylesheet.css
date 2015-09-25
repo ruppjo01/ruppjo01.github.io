@@ -2,7 +2,7 @@ header {
   text-align: center;
   color:blue;
   font-size:30pt;
-  margin-top:40px;
+  padding-top:50px;
 }
 h1 {
   color: blue;
@@ -15,7 +15,7 @@ body {
   display: inline;
 }
 .nav a {
-  text-decoration: none
+  text-decoration: none;
   color: white;
   background-color: blue;
 }
