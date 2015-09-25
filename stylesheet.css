@@ -50,3 +50,13 @@ div#img {
 html, body {
  width: 100%;
 }
+#img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10171721_10203641853790739_7784849560789197025_n.jpg?oh=729fbc005b37476f27a0453bd77a07fa&oe=566B4DAD");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
