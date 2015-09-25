@@ -12,16 +12,16 @@ body {
 }
 .nav li {
   display: inline;
-  color: blue;
-  background-color: #1F13CA;
 }
 .nav a {
   text-decoration: none
   color:white;
+  background-color: blue;
 }
 .nav {
-  background-color: #1F13CA;
+  background-color: blue;
   text-align: center;
+  font-size: 15pt;
   
   
 }
