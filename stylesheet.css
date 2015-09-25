@@ -29,7 +29,7 @@ nav>ul>li {
  display: inline;
 }
 
-nav ul li:hover {
+nav li:hover {
   background-color: lightblue;
 }
 nav ul li a {
