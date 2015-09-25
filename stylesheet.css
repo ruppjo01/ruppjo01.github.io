@@ -43,7 +43,10 @@ section.right {
   float: right;
   width: 50%;
 }
-section.right div#img {
-  size: 100%;
+div#img {
+  width: 50%;
   
+}
+html, body {
+ width: 100%;
 }
