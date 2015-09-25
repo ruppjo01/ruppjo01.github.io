@@ -37,7 +37,10 @@ nav ul li a {
 
 section.left {
   float: left;
-  width: 50%;
+  width: 49%;
+  border-right-style: solid;
+  border-right-width: thin;
+  padding-right: 2px;
 }
 section.right {
   float: right;
