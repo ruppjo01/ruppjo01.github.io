@@ -1,1 +1,14 @@
-
+header {
+  text-align: center;
+  color:blue;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+body {
+  background-color: #d0e4fe;
+}
+.nav li {
+  display: inline;
+}
