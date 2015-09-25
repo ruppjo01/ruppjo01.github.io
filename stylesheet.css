@@ -2,7 +2,7 @@ header {
   text-align: center;
   color:blue;
   font-size:30pt;
-  padding-top:55px;
+  padding-top:60px;
 }
 h1 {
   color: blue;
@@ -33,4 +33,11 @@ nav ul li a {
  background-color: blue;
  color: White;
  text-decoration: none;
+}
+
+secton.left {
+  float: left;
+}
+section.right {
+  float: right;
 }
