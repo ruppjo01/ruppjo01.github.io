@@ -30,7 +30,7 @@ nav>ul>li {
 }
 
 .nav li:hover {
-  background-color: lightblue;
+  background-color: gray;
 }
 nav ul li a {
  padding: 6px 20px;
