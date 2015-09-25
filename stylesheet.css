@@ -41,10 +41,12 @@ section.left {
   border-right-style: solid;
   border-right-width: thin;
   padding-right: 2px;
+  height: 100%;
 }
 section.right {
   float: right;
   width: 50%;
+  height: 100%;
 }
 
 footer {
