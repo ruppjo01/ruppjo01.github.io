@@ -28,6 +28,10 @@ body {
 nav>ul>li {
  display: inline;
 }
+
+nav ul li:hover {
+  background-color: lightblue;
+}
 nav ul li a {
  padding: 6px 20px;
  background-color: blue;
