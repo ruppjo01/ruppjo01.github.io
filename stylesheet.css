@@ -43,11 +43,6 @@ section.right {
   float: right;
   width: 50%;
 }
-  
-}
-html, body {
- width: 100%;
-}
 
 footer {
   clear: both;
