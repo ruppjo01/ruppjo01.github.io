@@ -23,6 +23,7 @@ body {
  margin-right: 7.5%;
  font-size: 15pt;
  clear: both;
+ left: 0px;
 }
 nav>ul>li {
  display: inline;
