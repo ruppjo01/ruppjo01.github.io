@@ -1,6 +1,7 @@
 header {
   text-align: center;
   color:blue;
+  font-size:30pt;
 }
 h1 {
   color: blue;
@@ -11,4 +12,13 @@ body {
 }
 .nav li {
   display: inline;
+  color: blue;
+  background-color: white;
+}
+
+.nav {
+  background-color: white;
+  text-align: center;
+  
+  
 }
