@@ -51,3 +51,7 @@ section {
     text-align: center;
 }
 
+#task #priority button {
+    display: inline;
+}
+
