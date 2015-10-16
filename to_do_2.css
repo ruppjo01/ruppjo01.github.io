@@ -29,4 +29,12 @@ section {
         width: 300px;
 }
 
+#list {
+    height: 300px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    
+}
 
