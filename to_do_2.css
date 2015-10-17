@@ -55,4 +55,7 @@ section {
     display: inline;
     float: left;
 }
+label {
+    color: gray;
+}
 
