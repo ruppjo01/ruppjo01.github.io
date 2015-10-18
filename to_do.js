@@ -19,14 +19,4 @@ addTask = function() {
   
   
 }
-done = function() {
-  checkbox = document.querySelector("input")
-  li = document.querySelector("li")
-  
-  if (input.checked) {
-    li.classList.add("finished");
-  } else {
-    li.classList.remove("finished");
-  }
-    
-}
+
