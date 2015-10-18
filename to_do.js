@@ -11,7 +11,6 @@ addTask = function() {
   
   text = document.createTextNode(task);
   li.appendChild(checkbox);
-  myList.appendChild(li)
   li.appendChild(text);
   myList.appendChild(li);
   
