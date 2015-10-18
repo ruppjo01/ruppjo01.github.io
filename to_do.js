@@ -5,7 +5,7 @@ addTask = function() {
   
   checkbox = document.createElement("input");
   checkbox.type = "checkbox";
-  checkbox.onclick = done();
+  //checkbox.onclick = done();
   
   category = document.querySelector("#priority");
   li.classList.add(category.value);
