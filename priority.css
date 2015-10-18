@@ -14,6 +14,10 @@
   text-decoration: line-through;
 }
 
+.unfinished {
+  text-decoration: none;
+}
+
 body {
     background-color: #d0e4fe;
 }
