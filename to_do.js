@@ -9,7 +9,7 @@ addTask = function() {
   category = document.querySelector("#priority");
   
   text = document.createTextNode(task);
-  text.classList.add(category.value);
+  li.classList.add(category.value);
   li.appendChild(checkbox);
   li.appendChild(text);
   myList.appendChild(li);
