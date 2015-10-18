@@ -22,14 +22,13 @@ addTask = function() {
 }
 onClick = function() {
   checkbox = document.querySelector("input");
-  li = document.querySelector("li");
   finished = document.getElementByClass("finished");
   
   if (checkbox.checked) {
-    li.classList.add("finished");
+    checkbox.classList.add("finished");
   }
   if (checkbox.unchecked) {
-    li.classList.add("unfinishd");
+    checkbox.classList.add("unfinishd");
   }
     
 }
