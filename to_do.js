@@ -7,10 +7,11 @@ addTask = function() {
   checkbox.type = "checkbox";
   
   category = document.querySelector("#priority").value;
-  li.classList.add(category)
+  text.classList.add(category)
   
   text = document.createTextNode(task);
   li.appendChild(checkbox);
+  myList.appendChild(li)
   li.appendChild(text);
   myList.appendChild(li);
   
