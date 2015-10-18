@@ -1,18 +1,18 @@
 addTask = function() {
   myList = document.querySelector("#list");
   task = document.querySelector("#task");
-  li = document.createElement("li");
+  litem = document.createElement("li");
   
   checkbox = document.createElement("input");
   checkbox.type = "checkbox";
   
   category = document.querySelector("#priority");
-  li.classList.add(category.value);
-  li.appendChild(checkbox);
+  litem.classList.add(category.value);
+  litem.appendChild(checkbox);
   
   text = document.createTextNode(task.value);
-  li.appendChild(text);
-  myList.appendChild(li);
+  litem.appendChild(text);
+  myList.appendChild(litem);
   
   task.value = ""
   
