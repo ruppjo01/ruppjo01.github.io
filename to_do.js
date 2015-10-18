@@ -5,7 +5,7 @@ addTask = function() {
   
   checkbox = document.createElement("input");
   checkbox.type = "checkbox";
-  checkbox.onclick = onClick();
+  //checkbox.onclick = onClick();
   
   
   category = document.querySelector("#priority");
@@ -20,15 +20,15 @@ addTask = function() {
   
   
 }
-onClick = function() {
-  checkbox = document.querySelector("input")
-  li = document.querySelector("li")
+//onClick = function() {
+  //checkbox = document.querySelector("input")
+  //li = document.querySelector("li")
   
-  if (input.checked) {
-    li.classList.add("finished");
-  } //else {
+  //if (input.checked) {
+  //  li.classList.add("finished");
+//  } //else {
     //li.classList.remove("finished");
   //}
     
-}
+//}
 
