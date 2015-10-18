@@ -26,9 +26,9 @@ onClick = function() {
   
   if (input.checked) {
     li.classList.add("finished");
-  } else {
-    li.classList.remove("finished");
-  }
+  } //else {
+    //li.classList.remove("finished");
+  //}
     
 }
 
