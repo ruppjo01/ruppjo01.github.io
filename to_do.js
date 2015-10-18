@@ -21,14 +21,14 @@ addTask = function() {
   
 }
 Clickme = function() {
-  checkbox = document.querySelector("input");
+  checkboxed = document.querySelector("input");
   finished = document.getElementsByClassName("finished");
   
-  if (checkbox.checked) {
-    checkbox.classList.add("finished");
+  if (checkboxed.checked) {
+    checkboxed.classList.add("finished");
   }
-  if (checkbox.unchecked) {
-    checkbox.classList.add("unfinishd");
+  if (checkboxed.unchecked) {
+    checkboxed.classList.add("unfinishd");
   }
     
 }
