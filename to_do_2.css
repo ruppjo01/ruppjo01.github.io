@@ -29,13 +29,18 @@ section {
         width: 300px;
 }
 
-#list {
+#listbox {
     height: 300px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     background-color: blue;
     
+}
+
+#list {
+    color: white;
+    list-style-type: none;
 }
 
 #input {
