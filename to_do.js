@@ -21,8 +21,9 @@ addTask = function() {
   
 }
 onClick = function() {
-  checkbox = document.querySelector("input")
-  li = document.querySelector("li")
+  checkbox = document.querySelector("input");
+  li = document.querySelector("li");
+  finished = document.getElementByClass("finished");
   
   if (checkbox.checked) {
     li.classList.add("finished");
