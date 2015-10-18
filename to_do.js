@@ -19,7 +19,7 @@ addTask = function() {
   
   
 }
-input.onclick = function() {
+onClick = function() {
   checkbox = document.querySelector("input")
   li = document.querySelector("li")
   
