@@ -22,7 +22,7 @@ addTask = function() {
 }
 onClick = function() {
   checkbox = document.querySelector("input");
-  finished = document.getElementByClass("finished");
+  finished = document.getElementsByClassName("finished");
   
   if (checkbox.checked) {
     checkbox.classList.add("finished");
