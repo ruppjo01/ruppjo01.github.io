@@ -1,20 +1,32 @@
 addTask = function() {
   myList = document.querySelector("#list");
   task = document.querySelector("#task");
-  litem = document.createElement("li");
+  li = document.createElement("li");
   
   checkbox = document.createElement("input");
   checkbox.type = "checkbox";
+  checkbox.onclick = done();
   
   category = document.querySelector("#priority");
-  litem.classList.add(category.value);
-  litem.appendChild(checkbox);
+  li.classList.add(category.value);
+  li.appendChild(checkbox);
   
   text = document.createTextNode(task.value);
-  litem.appendChild(text);
-  myList.appendChild(litem);
+  li.appendChild(text);
+  myList.appendChild(li);
   
   task.value = ""
   
   
+}
+done = function() {
+  checkbox = document.querySelector("input")
+  li = document.querySelector("li")
+  
+  if (input.checked) {
+    li.classList.add("finished");
+  } else {
+    li.classList.remove("finished");
+  }
+    
 }
