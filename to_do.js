@@ -22,13 +22,12 @@ addTask = function() {
 }
 Clickme = function() {
   checkboxed = document.querySelector("input");
-  finished = document.getElementsByClassName("finished");
   
   if (checkboxed.checked) {
-    checkboxed.classList.add("finished");
+    this.parentNode.classList.add("finished");
   }
   if (checkboxed.unchecked) {
-    checkboxed.classList.add("unfinishd");
+    this.parentNode.classList.remove("finishd");
   }
     
 }
