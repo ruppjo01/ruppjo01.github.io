@@ -5,7 +5,7 @@ addTask = function() {
   
   checkbox = document.createElement("input");
   checkbox.type = "checkbox";
-  checkbox.onclick = Clickme();
+  checkbox.onclick = Clickme;
   
   
   category = document.querySelector("#priority");
