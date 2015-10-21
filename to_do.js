@@ -24,9 +24,9 @@ addTask = function() {
 }
 Clickme = function() {
   if (this.checked) {
-    this.parentNode.classList.add("finished");
+    this.parentNode.classList.add("done");
   } else {
-    this.parentNode.classList.remove("finished");
+    this.parentNode.classList.remove("done");
     
   }
   localSave("list");
