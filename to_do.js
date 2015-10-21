@@ -16,9 +16,9 @@ addTask = function() {
   text = document.createTextNode(task.value);
   li.appendChild(text);
   myList.appendChild(li);
-  localSave("list");
-  task.value = ""
   
+  task.value = ""
+  localSave("list");
   
 }
 Clickme = function() {
