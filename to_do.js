@@ -5,7 +5,7 @@ addTask = function() {
   
   checkbox = document.createElement("input");
   checkbox.type = "checkbox";
-  checkbox.id = "box"
+  checkbox.id = "box";
   checkbox.onclick = Clickme;
   
   
@@ -22,6 +22,7 @@ addTask = function() {
   
 }
 Clickme = function() {
+  var box;
   box = document.querySelector("#box");
   
   if (box.checked) {
