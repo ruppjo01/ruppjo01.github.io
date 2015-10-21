@@ -16,7 +16,7 @@ addTask = function() {
   text = document.createTextNode(task.value);
   li.appendChild(text);
   myList.appendChild(li);
-  
+  localSave("list")
   task.value = ""
   
   
@@ -27,6 +27,7 @@ Clickme = function() {
   } else {
     this.parentNode.classList.remove("finished");
   }
+  
     
 }
 
