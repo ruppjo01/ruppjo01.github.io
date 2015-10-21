@@ -7,7 +7,7 @@ addTask = function() {
   checkbox.type = "checkbox";
   checkbox.id = "box";
   checkbox.onclick = Clickme;
-  
+  localSave("list");
   
   
   category = document.querySelector("#priority");
@@ -18,12 +18,13 @@ addTask = function() {
   text = document.createTextNode(task.value);
   li.appendChild(text);
   myList.appendChild(li);
-  
+  localSave("list");
   task.value = ""
-  
+  localSave("list");
   
 }
 Clickme = function() {
+  localSave("list");
   if (this.checked) {
     this.parentNode.classList.add("finished");
   } else {
