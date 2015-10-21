@@ -26,11 +26,12 @@ addTask = function() {
 Clickme = function() {
   if (this.checked) {
     this.parentNode.classList.add("finished");
+    localSave("list");
   } else {
     this.parentNode.classList.remove("finished");
-    
+    localSave("list");
   }
-  localSave("list");
+  
     
 }
 
