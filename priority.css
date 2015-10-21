@@ -10,12 +10,8 @@
   color: white;
 }
 
-.finished {
+.done {
   text-decoration: line-through;
-}
-
-.unfinished {
-  text-decoration: none;
 }
 
 body {
