@@ -9,16 +9,18 @@ addTask = function() {
   checkbox.onclick = Clickme;
   
   
+  
   category = document.querySelector("#priority");
   li.classList.add(category.value);
   li.appendChild(checkbox);
+  localSave("list");
   
   text = document.createTextNode(task.value);
   li.appendChild(text);
   myList.appendChild(li);
   
   task.value = ""
-  localSave("list");
+  
   
 }
 Clickme = function() {
