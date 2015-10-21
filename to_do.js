@@ -6,25 +6,24 @@ addTask = function() {
   checkbox = document.createElement("input");
   checkbox.type = "checkbox";
   checkbox.id = "box";
-  checkbox.onclick = Clickme;
   localSave("list");
+  checkbox.onclick = Clickme;
+
   
   
   category = document.querySelector("#priority");
   li.classList.add(category.value);
   li.appendChild(checkbox);
-  localSave("list");
+ 
   
   text = document.createTextNode(task.value);
   li.appendChild(text);
   myList.appendChild(li);
-  localSave("list");
   task.value = ""
-  localSave("list");
+  
   
 }
 Clickme = function() {
-  localSave("list");
   if (this.checked) {
     this.parentNode.classList.add("finished");
   } else {
