@@ -5,6 +5,7 @@ addTask = function() {
   
   checkbox = document.createElement("input");
   checkbox.type = "checkbox";
+  checkbox.id = "box"
   checkbox.onclick = Clickme;
   
   
@@ -21,12 +22,12 @@ addTask = function() {
   
 }
 Clickme = function() {
-  checkboxed = document.querySelector("input");
+  box = document.querySelector("#box");
   
-  if (checkboxed.checked) {
+  if (box.checked) {
     this.parentNode.classList.add("finished");
   }
-  if (checkboxed.unchecked) {
+  if (box.unchecked) {
     this.parentNode.classList.remove("finishd");
   }
     
