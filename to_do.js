@@ -26,9 +26,9 @@ Clickme = function() {
     this.parentNode.classList.add("finished");
   } else {
     this.parentNode.classList.remove("finished");
-    localSave("list");
+    
   }
-  
+  localSave("list");
     
 }
 
