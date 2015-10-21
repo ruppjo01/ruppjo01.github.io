@@ -22,13 +22,9 @@ addTask = function() {
   
 }
 Clickme = function() {
-  var box;
-  box = document.querySelector("#box");
-  
-  if (box.checked) {
+  if (this.checked) {
     this.parentNode.classList.add("finished");
-  }
-  if (box.unchecked) {
+  } else {
     this.parentNode.classList.remove("finished");
   }
     
