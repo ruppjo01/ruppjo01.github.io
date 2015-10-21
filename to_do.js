@@ -29,7 +29,7 @@ Clickme = function() {
     this.parentNode.classList.add("finished");
   }
   if (box.unchecked) {
-    this.parentNode.classList.remove("finishd");
+    this.parentNode.classList.remove("finished");
   }
     
 }
